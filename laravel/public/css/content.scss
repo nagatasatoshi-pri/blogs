@@ -1,0 +1,113 @@
+body{
+    background-color: rgb(247, 243, 212);
+    font-family: -apple-system, "BlinkMacSystemFont", "Helvetica Neue", Helvetica, Arial, YuGothic, "Yu Gothic", 游ゴシック体, 游ゴシック, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, sans-serif;
+}
+
+
+.contentAria {
+    width: 80%;
+    margin: 0 auto;
+    border: solid 1px #5d5d5d;
+    border-radius: 15px;
+    background-color: white;
+    padding: 0 1rem 1rem 1rem;
+    .blogAria{
+
+        h2{
+            border-bottom: solid 1px #5d5d5d;
+            padding-bottom: 1rem;
+            font-size: 2rem;
+        }
+
+
+        .contentData{
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            color: #5d5d5d;
+        }
+    }
+}
+
+.commentAria{
+    margin-top: 5rem;
+
+    h3{
+        background-color: #454545;
+        color: white;
+        text-align: center;
+    }
+
+    div{
+        border-bottom: solid 1px #5d5d5d;
+        padding: 1rem 0;
+        &:last-child{
+            border-bottom: none;
+        }
+        .name{
+            font-size: 0.6rem;
+        }
+
+        .comment{
+
+        }
+
+        .dataAndDelete{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            column-gap: 2rem;
+            .day{
+                font-size: 0.6rem;
+                color: #5d5d5d;
+            }
+
+            .delete{
+                font-size: 0.6rem;
+                color: #5d5d5d;
+            }
+        }
+
+    }
+}
+
+.commentUpAria{
+    margin-top: 3rem;
+
+    h3{
+        background-color: #454545;
+        color: white;
+        text-align: center;
+    }
+
+    form{
+
+        textarea{
+            width: 100%;
+        }
+    }
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 1rem;
+    border: none;
+    border-radius:15px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    width: 130px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.deleteButton{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius:15px;
+    text-decoration: none;
+}

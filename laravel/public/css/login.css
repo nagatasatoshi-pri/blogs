@@ -1,0 +1,42 @@
+@charset "UTF-8";
+body {
+  background-color: rgb(247, 243, 212);
+  font-family: -apple-system, "BlinkMacSystemFont", "Helvetica Neue", Helvetica, Arial, YuGothic, "Yu Gothic", 游ゴシック体, 游ゴシック, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, sans-serif;
+}
+
+.loginContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginContent .container {
+  width: 30%;
+  border: solid 2px #7d7d7d;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 15px;
+}
+.loginContent .container .cardTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(122, 211, 244);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.loginContent .container .cardBody form .formItem {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.loginContent .container .cardBody form .submitBtn {
+  margin-top: 2rem;
+}
+.loginContent .container .cardBody form .submitBtn button {
+  background: white;
+  width: 100%;
+  border: solid 1px #565656;
+  padding: 0.4rem 0;
+  border-radius: 15px;
+  font-size: 1rem;
+  font-weight: bold;
+}/*# sourceMappingURL=login.css.map */
