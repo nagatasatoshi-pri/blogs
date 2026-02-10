@@ -1,0 +1,8 @@
+image: alpine/git
+
+pipelines:
+  default:
+    - step:
+        name: Mirror to GitHub
+        script:
+          - git push --mirror https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/${GITHUB_USER}/blogs.git
